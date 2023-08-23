@@ -12,6 +12,9 @@
         <activity
             android:name=".ui.DynamicLauncherActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
         </activity>
         <activity-alias
             android:name="com.demo.dynamiclauncher.alias.OldLauncherAlias"
